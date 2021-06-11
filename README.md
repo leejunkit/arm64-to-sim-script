@@ -1,4 +1,6 @@
 # arm64-to-sim-script
+Need to build your iOS project for the Apple Silicon iOS simulator but have legacy static libraries with no arm64 simulator slice?
+
 This is a helper script that accepts a traditional `.framework` that has the following slices:
 - armv7 (device)
 - arm64 (device)
